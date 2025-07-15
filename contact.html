@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Finsweet Attributes -->
+    <script async type="module" src="https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js"
+        fs-formsubmit></script>
+    <title>Project</title>
+</head>
+       
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <section class="contact">
+        <div class="container">
+            <div class="row">
+                <form action="https://api.web3forms.com/submit" method="post" class="form1" id="form">
+                    <!-- <form action="https://formsubmit.co/maheshpatgar14@email.com" method="post" class="form1" id="form"> -->
+                    <div class="head">
+                        <h1>Contact Us</h1>
+                    </div>
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3768.2384687026283!2d72.854316!3d19.184783999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDExJzA1LjIiTiA3MsKwNTEnMTUuNSJF!5e0!3m2!1sen!2sin!4v1751611850599!5m2!1sen!2sin"
+                            width="650" height="580" style="border:0;margin-left: 15px;" allowfullscreen=""
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+
+                    <!-- form -->
+                    <div class="form">
+                        <div class="row">
+                            <label for="name">Name:-</label>
+                            <input type="hidden" name="access_key" value="07c87858-8ea7-46d7-8f92-134b9499b5fd">
+                            <input type="text" class="name" id="Name" name="Name" placeholder="Enter your name"
+                                required>
+                        </div>
+
+                        <div class="row">
+                            <label for="email">Email:-</label>
+                            <input type="email" class="email" id="Email" name="Email" placeholder="Enter your email"
+                                required>
+                        </div>
+
+                        <div class="row">
+                            <label for="phone">Phone:-</label>
+                            <input type="number" class="number" id="Number" name="Phone"
+                                placeholder="Enter your phone number" maxlength="$10" required>
+                        </div>
+
+                        <div class="row">
+                            <label for="message">Message:-</label>
+                            <textarea name="message" id="Message" class="msg" placeholder="Enter Message"></textarea>
+                        </div>
+
+                        <div class="btn">
+
+                            <button type="submit" value="Submit" class="send">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "name": "glowless-light-theme",
+  "displayName": "Glowless Light Theme",
+  "description": "An ultra-minimal light theme with no glow or visual clutter.",
+  "version": "1.0.0",
+  "publisher": "mahesh-custom",
+  "engines": {
+    "vscode": "^1.40.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Glowless Light",
+        "uiTheme": "vs",
+        "path": "./themes/glowless-light-color-theme.json"
+      },
+    {
+      "label": "Glowless Dark",
+      "uiTheme": "vs-dark",
+      "path": "./themes/glowless-dark-color-theme.json"
+    }
+    ]
+  }
+
+}
