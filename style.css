@@ -31,8 +31,14 @@ nav {
     justify-content: space-between;
     padding-left: 140px;
     font-size: 20px;
+    
 }
-
+.fa-shop{
+    /* width: 40px; */
+    text-align: center;
+    align-items: center;
+    padding: 4px;
+}
 .form-control,
 .btn-outline-success {
     /* padding: 5px 5px;
